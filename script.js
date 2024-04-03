@@ -5,7 +5,7 @@ let validasicuy = (event) => {
   let cowo = document.getElementById("cowo").checked;
   let cewe = document.getElementById("cewe").checked;
 
-  if (!tinggi || !berat || (!cowo && !cewe)) {
+  if (isNaN(tinggi) || isNaN(berat) || (!cowo && !cewe)) {
     alert("Lengkapi data untuk menghitung BMI.");
     return false;
   }
@@ -113,6 +113,20 @@ let calculateBMI = () => {
   let penyakitcuy4 = document.getElementById("penyakit4");
   penyakitcuy4.innerHTML = penyakit4;
 };
+
+document.addEventListener("DOMContentLoaded", () => {
+  const resetButton = document.getElementById("resetButton");
+
+  resetButton.addEventListener("click", () => {
+    const confirmReset = confirm(
+      "Apakah Anda yakin ingin mereset nilai input dan hasil perhitungan?"
+    );
+
+    if (confirmReset) {
+      location.reload();
+    }
+  });
+});
 
 let downloadcuy = () => {
   alert("Hasil sudah di download cuy");
