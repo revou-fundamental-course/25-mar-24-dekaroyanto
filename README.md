@@ -1,6 +1,6 @@
 ## ❗️ NEW RELEASE - BMI CALCULATOR ❗️
 
-## 👽 PATCH 1.0
+## 👽 PATCH 1.0 👽
 
 ```bash
 MENYALA ABANGKUH!!! 🔥🔥🔥
