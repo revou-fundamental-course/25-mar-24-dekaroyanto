@@ -10,7 +10,7 @@ MENYALA ABANGKUH!!! 🔥🔥🔥
 ## 🚀 deka-dev 🚀
 
 ```bash
-Visit site: https://dekaroyanto.github.io/onlinecoursedeka.github.io/
+Visit site: https://revou-fundamental-course.github.io/25-mar-24-dekaroyanto/
 ```
 
 ## 🎁 FEATURE 🎁
